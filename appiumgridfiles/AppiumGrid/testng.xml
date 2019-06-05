@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests">
+  
+  <test thread-count="5" name="Samsung 7S Edge">
+  <parameter name="port" value="4725"></parameter>
+    <parameter name="deviceID" value="192.168.1.5:5555"></parameter>
+    <classes>
+      <class name="testcases.TestWebBrowser"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test thread-count="5" name="Samsung Galaxy TabS">
+   <parameter name="port" value="4726"></parameter>
+    <parameter name="deviceID" value="3204d84f4c9c71dd"></parameter>
+    <classes>
+      <class name="testcases.TestWebBrowser"/>
+    </classes>
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->

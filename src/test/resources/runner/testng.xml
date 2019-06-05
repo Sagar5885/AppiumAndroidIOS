@@ -1,0 +1,16 @@
+<suite name="TestNG Learning">
+
+	<listeners>
+		<listener class-name="listener.CustomListeners"></listener>
+		<listener class-name="listener.ExtentReporterNG"></listener>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+	</listeners>
+
+	<test name="Selendroid App Test">
+		<classes>
+			<class name="testcases.care.CareLoginTest"></class>
+		</classes>
+	</test>
+
+</suite>

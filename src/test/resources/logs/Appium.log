@@ -1,0 +1,48 @@
+2019-05-28 11:33:53:411 [Appium] Welcome to Appium v1.13.0
+2019-05-28 11:33:53:412 [Appium] Non-default server args:
+2019-05-28 11:33:53:412 [Appium]   logFile: /Users/sagardodia/Documents/workspace-sts-3.9.8.RELEASE/mvnappiumautojar/src/test/resources/logs/Appium.log
+2019-05-28 11:33:53:413 [Appium]   localTimezone: true
+2019-05-28 11:33:53:448 [Appium] Appium REST http interface listener started on 0.0.0.0:4723
+2019-05-28 11:33:57:854 [HTTP] --> GET /wd/hub/status
+2019-05-28 11:33:57:854 [HTTP] {}
+2019-05-28 11:33:57:856 [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2019-05-28 11:33:57:857 [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.13.0"}}
+2019-05-28 11:33:57:861 [HTTP] <-- GET /wd/hub/status 200 5 ms - 68
+2019-05-28 11:33:57:861 [HTTP] 
+2019-05-28 11:33:58:234 [HTTP] --> POST /wd/hub/session
+2019-05-28 11:33:58:234 [HTTP] {"desiredCapabilities":{"app":"/Users/sagardodia/Documents/workspace-sts-3.9.8.RELEASE/mvnappiumautojar/apps/TestApp.app","automationName":"XCUITest","platformName":"iOS","udid":"3cca4f92cad4cf28263fb3f5748582ff11afb2c7","deviceName":"Sagar’s iPhone (12.1)"},"capabilities":{"alwaysMatch":{"appium:app":"/Users/sagardodia/Documents/workspace-sts-3.9.8.RELEASE/mvnappiumautojar/apps/TestApp.app","appium:automationName":"XCUITest","appium:deviceName":"Sagar’s iPhone (12.1)","platformName":"ios","appium:udid":"3cca4f92cad4cf28263fb3f5748582ff11afb2c7"},"firstMatch":[{}]}}
+2019-05-28 11:33:58:234 [W3C] Calling AppiumDriver.createSession() with args: [{"app":"/Users/sagardodia/Documents/workspace-sts-3.9.8.RELEASE/mvnappiumautojar/apps/TestApp.app","automationName":"XCUITest","platformName":"iOS","udid":"3cca4f92cad4cf28263fb3f5748582ff11afb2c7","deviceName":"Sagar’s iPhone (12.1)"},null,{"alwaysMatch":{"appium:app":"/Users/sagardodia/Documents/workspace-sts-3.9.8.RELEASE/mvnappiumautojar/apps/TestApp.app","appium:automationName":"XCUITest","appium:deviceName":"Sagar’s iPhone (12.1)","platformName":"ios","appium:udid":"3cca4f92cad4cf28263fb3f5748582ff11afb2c7"},"firstMatch":[{}]}]
+2019-05-28 11:33:58:235 [BaseDriver] Event 'newSessionRequested' logged at 1559068438235 (11:33:58 GMT-0700 (Pacific Daylight Time))
+2019-05-28 11:33:58:371 [Appium] Appium v1.13.0 creating new XCUITestDriver (v2.113.2) session
+2019-05-28 11:33:58:372 [Appium] Capabilities:
+2019-05-28 11:33:58:372 [Appium]   platformName: ios
+2019-05-28 11:33:58:372 [Appium]   app: /Users/sagardodia/Documents/workspace-sts-3.9.8.RELEASE/mvnappiumautojar/apps/TestApp.app
+2019-05-28 11:33:58:372 [Appium]   automationName: XCUITest
+2019-05-28 11:33:58:372 [Appium]   deviceName: Sagar’s iPhone (12.1)
+2019-05-28 11:33:58:372 [Appium]   udid: 3cca4f92cad4cf28263fb3f5748582ff11afb2c7
+2019-05-28 11:33:58:374 [BaseDriver] W3C capabilities {"alwaysMatch":{"platformNa... and MJSONWP desired capabilities {"app":"/Users/sagardodia/D... were provided
+2019-05-28 11:33:58:374 [BaseDriver] Creating session with W3C capabilities: {"alwaysMatch":{"platformNa...
+2019-05-28 11:33:58:378 [XCUITest] 'platformVersion' capability ('undefined') is not a valid version number. Consider fixing it or be ready to experience an inconsistent driver behavior.
+2019-05-28 11:33:58:379 [BaseDriver] Session created with session id: 4a680268-7cb6-41ec-8a9b-23135f906c66
+2019-05-28 11:33:58:403 [XCUITest] Current user: 'sagardodia'
+2019-05-28 11:33:58:418 [XCUITest] The 'idevice_id' program is not installed. If you are running a real device test it is necessary. Install with 'brew install libimobiledevice --HEAD'
+2019-05-28 11:33:58:418 [XCUITest] Available devices: 
+2019-05-28 11:33:58:639 [XCUITest] Error: Unknown device or simulator UDID: '3cca4f92cad4cf28263fb3f5748582ff11afb2c7'
+2019-05-28 11:33:58:639 [XCUITest]     at XCUITestDriver.determineDevice (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-xcuitest-driver/lib/driver.js:771:17)
+2019-05-28 11:33:58:639 [XCUITest]     at XCUITestDriver.start (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-xcuitest-driver/lib/driver.js:269:40)
+2019-05-28 11:33:58:640 [XCUITest]     at XCUITestDriver.createSession (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-xcuitest-driver/lib/driver.js:206:7)
+2019-05-28 11:33:58:640 [XCUITest]     at AppiumDriver.createSession (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/lib/appium.js:342:35)
+2019-05-28 11:33:58:640 [XCUITest]     at AppiumDriver.executeCommand (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-base-driver/lib/basedriver/driver.js:319:13)
+2019-05-28 11:33:58:640 [XCUITest]     at AppiumDriver.executeCommand (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/lib/appium.js:471:14)
+2019-05-28 11:33:58:640 [XCUITest]     at asyncHandler (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-base-driver/lib/protocol/protocol.js:352:21)
+2019-05-28 11:33:58:641 [BaseDriver] Event 'newSessionStarted' logged at 1559068438641 (11:33:58 GMT-0700 (Pacific Daylight Time))
+2019-05-28 11:33:58:641 [W3C] Encountered internal error running command: Error: Unknown device or simulator UDID: '3cca4f92cad4cf28263fb3f5748582ff11afb2c7'
+2019-05-28 11:33:58:641 [W3C]     at XCUITestDriver.determineDevice (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-xcuitest-driver/lib/driver.js:771:17)
+2019-05-28 11:33:58:641 [W3C]     at XCUITestDriver.start (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-xcuitest-driver/lib/driver.js:269:40)
+2019-05-28 11:33:58:642 [W3C]     at XCUITestDriver.createSession (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-xcuitest-driver/lib/driver.js:206:7)
+2019-05-28 11:33:58:642 [W3C]     at AppiumDriver.createSession (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/lib/appium.js:342:35)
+2019-05-28 11:33:58:642 [W3C]     at AppiumDriver.executeCommand (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-base-driver/lib/basedriver/driver.js:319:13)
+2019-05-28 11:33:58:642 [W3C]     at AppiumDriver.executeCommand (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/lib/appium.js:471:14)
+2019-05-28 11:33:58:642 [W3C]     at asyncHandler (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-base-driver/lib/protocol/protocol.js:352:21)
+2019-05-28 11:33:58:648 [HTTP] <-- POST /wd/hub/session 500 414 ms - 715
+2019-05-28 11:33:58:648 [HTTP] 

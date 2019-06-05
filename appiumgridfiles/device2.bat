@@ -1,0 +1,1 @@
+appium -p 4726 --udid 3204d84f4c9c71dd -bp 5556 --chromedriver-port 5645 --nodeconfig "C:\Users\WAY2AUTOMATION\Desktop\appiumgrid\all.json" -g "C:\Users\WAY2AUTOMATION\Desktop\appiumgrid\appium_2.log" --session-override
